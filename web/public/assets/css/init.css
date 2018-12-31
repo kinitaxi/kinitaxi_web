@@ -1,0 +1,79 @@
+@media only screen and (max-device-width: 480px) {
+    .small-bottom-mobile{
+        margin-bottom:10%;
+    }
+    .small-bottom-margin{
+        margin-bottom: 20px !important;
+    }
+    .medium-top-mobile{
+        margin-top:10%;
+    }
+    .zero-margin-bottom-mobile{
+        margin-bottom: 0 !important;
+    }
+    .no-top-margin{
+        margin-top:0 !important;
+    }
+    .small-top-bottom{
+        padding-top:10px !important;
+        padding-bottom:10px !important;
+    }
+    .small-top{
+        padding-top:10px !important;
+    }
+    .small-left-mobile{
+        padding-left: 5px;
+    }
+    body{
+        margin:0;
+        -webkit-overflow-scrolling: touch;
+    }
+    .verify-top{
+        margin-top:30% !important;
+    }
+    .profile-top{
+        margin-top:20% !important;
+    }
+    .mobile-remove{
+        display:none !important;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+
+    .desktop-remove{
+        display:none !important;
+    }
+}
+html{ overflow-y: scroll;}
+.verify-top{
+    margin-top:10%;
+}
+.profile-top{
+    margin-top:10%;
+}
+.profile-img{
+    border-radius: 100%;
+    border: 1px solid lightgrey;
+    height: 100px;
+    width: 100px;
+    margin-left:35%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.terms-bckg{
+    background-image: url('../img/african.jpeg');
+    background-size: cover;
+}
+.divider{
+    margin-left: 46%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    width: 30px;
+    text-align: center;
+    background-color: white;
+}
+.zero-top-margin{
+    margin-top: 0;
+}

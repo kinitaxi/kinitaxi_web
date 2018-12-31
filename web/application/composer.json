@@ -1,0 +1,20 @@
+{
+    "require": {
+        "duncan3dc/blade": "^3.4",
+        "infobip/infobip-api-php-client": "dev-master",
+        "ktamas77/firebase-php": "dev-master",
+        "phpmailer/phpmailer": "^6.0",
+        "rmccue/requests": "^1.7"
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+            "App\\": "helpers/"
+        },
+        "files": [
+            "helpers/intract_helper.php"
+        ]
+    }
+}

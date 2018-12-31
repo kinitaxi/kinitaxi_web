@@ -1,0 +1,30 @@
+{
+	"description": "REST Server for the CodeIgniter framework",
+	"name": "chriskacerguis/codeigniter-restserver",
+	"type": "project",
+	"homepage": "https://github.com/chriskacerguis/codeigniter-restserver",
+	"authors": [
+		{
+			"name": "Chris Kacerguis",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"ktamas77/firebase-php": "dev-master",
+		"phpmailer/phpmailer": "^6.0",
+		"rmccue/requests": "^1.7",
+		"flutterwave/flutterwave-php": "dev-master",
+		"twilio/sdk": "^5.16"
+	},
+	"autoload": {
+		"classmap": [
+			"application/libraries/Format.php",
+			"application/libraries/REST_Controller.php"
+		]
+	},
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/chriskacerguis/codeigniter-restserver"
+	}
+}
